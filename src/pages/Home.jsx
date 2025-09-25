@@ -45,7 +45,7 @@ const Home = () => {
 
   // ✅ Generate code
   async function getResponse() {
-    if (!prompt.trim()) return toast.error("Please describe your component first");
+    if (!prompt.trim()) return toast.error("Please describe your component first ");
 
     try {
       setLoading(true);
@@ -90,7 +90,7 @@ Requirements:
     }
   };
 
-  // ✅ Download Code
+  // ✅ Download Code !!
   const downnloadFile = () => {
     if (!code.trim()) return toast.error("No code to download");
 
