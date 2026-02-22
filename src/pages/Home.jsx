@@ -186,7 +186,7 @@ const Home = () => {
                 <HiOutlineCode />
               </div>
               <p className="text-[16px] text-gray-400 mt-3">
-                Your component & code will appear here.
+                Your Component & Code Will Appear Here !!
               </p>
             </div>
           ) : (
