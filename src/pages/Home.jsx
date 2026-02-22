@@ -39,7 +39,7 @@ const Home = () => {
 
   // ⚠️ API Key (you said you want it inside the file)
   const ai = new GoogleGenAI({
-    apiKey: "AIzaSyCO10-5xdtamydljElMQe2_-N_K9PE-j_E",
+    apiKey: "AIzaSyBYq3JqnRO7xyeT1Zn6EGFWv96HU9pJHdw",
   });
 
   // ✅ Generate code
