@@ -72,7 +72,7 @@ const Home = () => {
       setOutputScreen(true);
     } catch (error) {
       console.error(error);
-      toast.error("Something went wrong while generating code");
+      toast.error("Something went wrong while generating code! Please Try Again.");
     } finally {
       setLoading(false);
     }
@@ -117,7 +117,7 @@ const Home = () => {
             AI Component Generator
           </h3>
           <p className="text-gray-400 mt-2 text-[16px]">
-            Describe your component and let AI code it for you.
+            Describe Your Component & let AI Code it for you
           </p>
 
           <p className="text-[15px] font-[700] mt-4">Framework</p>
@@ -166,7 +166,7 @@ const Home = () => {
 
           <div className="flex items-center justify-between mt-3">
             <p className="text-gray-400 text-sm">
-              Click on generate button to get your code
+              Click On Generate Button To Get Your Code
             </p>
             <button
               onClick={getResponse}
